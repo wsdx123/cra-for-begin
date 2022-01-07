@@ -1,0 +1,37 @@
+.movie_img{
+    float:left;
+    margin-right: 20px;
+}
+.movie_genres{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0px;
+}
+.movie_title{
+    margin-bottom: 0;
+}
+.movie_title a{
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+.movie_title:hover{
+    text-decoration: underline;
+}
+.movie_year{
+    margin:0;
+    font-weight: normal;
+    font-size: 15px;
+}
+.movie_genres li{
+    margin-right: 10px;
+}
+@media(max-width:550px){
+    .movie_img{
+        float: none;
+        margin-left: 59px;
+    }
+}

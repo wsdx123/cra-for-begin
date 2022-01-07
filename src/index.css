@@ -1,0 +1,10 @@
+*{
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right top,white, red, #567ace, yellow);
+    height: 100%;
+}
