@@ -1,0 +1,9 @@
+.spin{
+    width: 100%;
+    height: 100vh;
+    font-size: 84px;
+    color: #121aed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

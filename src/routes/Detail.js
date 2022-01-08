@@ -1,5 +1,6 @@
 import { useEffect,useState } from "react";
 import { useParams } from "react-router-dom";
+import Loading from "../components/Loading";
 import styles from "./Detail.module.css";
 
 const Detail = () => {
@@ -18,7 +19,7 @@ const Detail = () => {
     return (
         <div>
             {load ? (
-                <h1 className={styles.load}>Loading...</h1>
+                <Loading />
             ) : (
                 <div className={styles.container}>
                     good
