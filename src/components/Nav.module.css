@@ -1,0 +1,37 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    min-height: 80px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    transition: all .75s;
+}
+.scrollnav{
+    position: fixed;
+    width: 100%;
+    min-height: 80px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;    
+    background-color: black;
+    transition: all .75s;
+}
+.net{
+    height: 76px;
+    width: 100%;
+}
+.nav a{
+    color: red;
+    text-decoration: none;
+}
+.scrollnav a{
+    color: red;
+    text-decoration: none;
+}
+.nav:hover{
+    background-color: black;
+    transition: all .75s;
+}
