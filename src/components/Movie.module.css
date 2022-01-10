@@ -1,6 +1,12 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.item{
+    padding: 10px;
+}
 .movie_img{
-    float:left;
-    margin-right: 20px;
+    margin: 0;
 }
 .movie_genres{
     list-style: none;
@@ -29,9 +35,4 @@
 .movie_genres li{
     margin-right: 10px;
 }
-@media(max-width:550px){
-    .movie_img{
-        float: none;
-        margin-left: 59px;
-    }
-}
+
