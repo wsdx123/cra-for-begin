@@ -1,4 +1,3 @@
-import { Rate } from "antd";
 import { useEffect,useState } from "react";
 import { useParams } from "react-router-dom";
 import Loading from "../components/Loading";
@@ -14,7 +13,6 @@ const Detail = () => {
         ).json();
         setLoad(false);
         setDetail(json.data.movie);
-        console.log(json.data.movie);
     };
     useEffect(() => {
         getMovie();

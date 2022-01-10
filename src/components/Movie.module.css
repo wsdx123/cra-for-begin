@@ -35,4 +35,11 @@
 .movie_genres li{
     margin-right: 10px;
 }
-
+@media(max-width:550px){
+    .container{
+        flex-direction: column;
+    }
+    :nth-child(1){
+        align-self: center;
+    }
+}
