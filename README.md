@@ -1,8 +1,8 @@
 https://wsdx123.github.io/cra-for-begin/
 
 # 개발 스펙
-Language : Javascript
-Framework&Library : React JS, antdesign
+- Language : Javascript
+- Framework&Library : React JS, antdesign
 
 # 설명
 영화들을 여러기준으로 나누어 보여주는 웹페이지이다. 평점, 영화에 대한 설명, 장르 등 영화의 정보들을 볼 수 있다.
